@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/Cellar/node/9.3.0_1/bin/node /usr/local/bin/yarn lint
+  /usr/local/Cellar/node/9.3.0_1/bin/node /usr/local/bin/yarn watch
 
 PATH: 
   /Users/julescoleman/.pyenv/shims:/Users/julescoleman/.pyenv/bin:/Users/julescoleman/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Applications/Postgres.app/Contents/Versions/latest/bin
@@ -7264,7 +7264,7 @@ Trace:
   Error: Command failed.
   Exit code: 1
   Command: sh
-  Arguments: -c ./node_modules/.bin/eslint **/*.{js,jsx} --quiet
+  Arguments: -c webpack --watch
   Directory: /Users/julescoleman/code/react
   Output:
   
